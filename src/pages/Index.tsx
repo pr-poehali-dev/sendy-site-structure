@@ -19,7 +19,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <h1 className="text-2xl font-bold gradient-text">SENDY</h1>
+          <img src="https://cdn.poehali.dev/files/585e94bb-4452-4f55-99f5-6da6c99de09e.png" alt="SENDY" className="h-8" />
           <div className="hidden md:flex gap-8 items-center">
             <a href="#features" className="text-sm hover:text-primary transition-colors">Возможности</a>
             <a href="#cases" className="text-sm hover:text-primary transition-colors">Кейсы</a>
@@ -350,7 +350,7 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 className="text-xl font-bold gradient-text mb-4">SENDY</h3>
+              <img src="https://cdn.poehali.dev/files/585e94bb-4452-4f55-99f5-6da6c99de09e.png" alt="SENDY" className="h-8 mb-4" />
               <p className="text-sm text-muted-foreground">
                 Современная платформа для email-маркетинга
               </p>
